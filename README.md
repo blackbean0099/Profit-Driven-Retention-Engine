@@ -77,4 +77,4 @@ You cannot simply `JOIN` a customer's 5 orders to their 3 support tickets—SQL 
 * **/Assets**: Dashboard screenshots and diagrams.
 * **/01_staging_layer**: The SQL scripts used to clean, format, and fix the raw data.
 * **/02_MART**: The heavy Data Engineering SQL script that calculates True Profit and Custom Churn.
-* **/dashboard**: The final Power BI `.pbix` file.
+* **/03_Power BI_Dashboard**: The final Power BI `.pbix` file.
