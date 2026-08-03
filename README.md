@@ -31,7 +31,7 @@ While leadership was focused on reducing Customer Support costs (₹444K total),
 
 👇 **Visual Proof: The Profitability Radar**
 
-![Profitability Radar Dashboard](assets/Profitability.png)
+![Profitability Radar Dashboard](Assets/Profitability.png)
 
 *> Executive Insight: This scatter plot instantly identifies "Fake VIPs"—customers with high gross sales who drop below the ₹0 True Profit line.*
 <br>
@@ -41,7 +41,7 @@ Instead of a generic 30-day rule, I utilized SQL window functions to calculate e
 
 👇 **Visual Proof: The Silent Churn Radar**
 
-![Customer Churn Dashboard](assets/Retention.png)
+![Customer Churn Dashboard](Assets/Retention.png)
 
 *> Executive Insight: This flags customers who are significantly past their expected reorder date (data points floating dangerously above the safe trendline).*
 <br>
@@ -49,7 +49,7 @@ Instead of a generic 30-day rule, I utilized SQL window functions to calculate e
 ### 3. The 5-Second Executive View
 👇 **The Executive Overview**
 
-![Executive Overview Dashboard](assets/Overview.png)
+![Executive Overview Dashboard](Assets/Overview.png)
 
 *> Executive Insight: A clean, F-pattern summary of total customers, gross sales, true profit, and regional breakdowns designed for quick leadership consumption.*
 <br>
