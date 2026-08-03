@@ -63,7 +63,10 @@ customer_order AS (
         AVG(days_since_prev_order) AS avg_days_between_orders,
         STDDEV_SAMP(days_since_prev_order) AS stddev_days_between_orders,
         DATE_DIFF(MAX(order_date), MIN(order_date), DAY) AS active_days,
-        DATE_DIFF(CURRENT_DATE(), DATE(MAX(order_date)), DAY) AS days_since_last_order
+        
+        -- UPDATED: Hardcoded to April 30, 2024 to perfectly match the dataset's actual timeline
+        DATE_DIFF(DATE('2024-04-30'), DATE(MAX(order_date)), DAY) AS days_since_last_order
+        
     FROM
         order_sequence
     GROUP BY
