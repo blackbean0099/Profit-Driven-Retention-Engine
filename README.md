@@ -78,5 +78,5 @@ Instead of a generic 30-day rule, I utilized SQL window functions to calculate e
 ## 📂 Repository Files
 * **/assets**: Dashboard screenshots and architectural diagrams.
 * **/01_staging_layer**: The SQL scripts used to clean, format, and fix the raw data.
-* **/02_MART**: The heavy Data Engineering SQL script that calculates True Profit and Custom Churn.
+* **/02_MART**: The Data Engineering SQL script that calculates True Profit and Custom Churn.
 * **/03_Power BI_Dashboard**: The final Power BI `.pbix` file.
